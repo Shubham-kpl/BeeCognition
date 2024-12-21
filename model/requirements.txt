@@ -1,6 +1,6 @@
-# opencv-python>=4.1.2.30
-# tensorflow>=2.6.0
-opencv-python
+opencv-python>=4.1.2.30
+tensorflow>=2.6.0
+# opencv-python
 # tensorflow
 filterpy
 imutils
