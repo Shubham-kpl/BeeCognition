@@ -59,28 +59,34 @@ then install github desktop:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Anushri-Rawat/BeeCognition.git
+   ```
 
 2. Run Frontend setup
    ```bash
    cd beecognition/frontend
    npm install
    npm run dev
+   ```
 
 3. Run Backend setup
    ```cmd
    # navigate to project root directory
    .\env\scripts\activate
+   ```
 
    ```bash
    cd beecognition/backend
    pip install
    python main.py
+   ```
 
 4. To run the model
    ```cmd
    # navigate to project root directory
    .\env\scripts\activate
+   ```
 
    ```bash
    cd model
    python main.py --video video_path
+   ```
