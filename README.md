@@ -60,25 +60,27 @@ then install github desktop:
    ```bash
    git clone https://github.com/Anushri-Rawat/BeeCognition.git
 
-2. Run the model
-    ```bash
-    cd beecognition/model
-
-3. Run Frontend setup
+2. Run Frontend setup
    ```bash
    cd beecognition/frontend
    npm install
    npm run dev
 
-4. Run Backend setup
+3. Run Backend setup
+   ```cmd
+   # navigate to project root directory
+   .\env\scripts\activate
+
    ```bash
    cd beecognition/backend
    pip install
    python main.py
 
+4. To run the model
+   ```cmd
+   # navigate to project root directory
+   .\env\scripts\activate
 
-
-
-#### to run the backend
-- don't run using terminal
-- run using "Code runner"
+   ```bash
+   cd model
+   python main.py --video video_path
