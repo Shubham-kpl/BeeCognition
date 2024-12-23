@@ -75,3 +75,10 @@ then install github desktop:
    cd beecognition/backend
    pip install
    python main.py
+
+
+
+
+#### to run the backend
+- don't run using terminal
+- run using "Code runner"
